@@ -1,4 +1,8 @@
 num=1
 while num<=100:
-    print(num)
+    if num%2==0:
+        print(num, " is even")
+    else:
+        print(num, " is odd")
     num=num+1
+    
