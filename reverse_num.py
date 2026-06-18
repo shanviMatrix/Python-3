@@ -1,7 +1,9 @@
-i=int(input("Enter a number: "))
-rev=0
-while(i>0):
-    rev=(rev*10)+i%10
-    i=i//10
+num = int(input("Enter a number: "))
+rev = 0
 
-print("Reverse=" ,rev)
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num = num // 10
+
+print("Reversed number:", rev)
